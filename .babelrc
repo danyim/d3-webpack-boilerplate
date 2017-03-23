@@ -1,0 +1,20 @@
+{
+  "presets": [
+    [ "es2015", { "modules": false } ],
+    "stage-3"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        ["transform-object-rest-spread"],
+        ["transform-react-display-name"]
+      ]
+    },
+    "production": {
+      "plugins": [
+        ["transform-object-rest-spread"],
+        ["transform-react-display-name"]
+      ]
+    }
+  }
+}
