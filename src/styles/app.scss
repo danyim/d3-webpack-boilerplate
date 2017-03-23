@@ -1,1 +1,8 @@
 @import '_variables';
+
+.graphic {
+  $margins: 2rem;
+  margin-top: $margins;
+  margin-bottom: $margins;
+  text-align: center;
+}

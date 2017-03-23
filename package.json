@@ -2,10 +2,11 @@
   "name": "d3-webpack-boilerplate",
   "version": "0.1.0",
   "description": "D3 boilerplate code with Webpack and other modern web tooling",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "scripts": {
     "build": "npm run clean && npm run build:webpack",
     "build:webpack": "webpack --config webpack.config.js",
+    "build:gh": "npm run build && cp -r dist/** docs",
     "clean": "rimraf dist",
     "start": "webpack-dev-server --colors --inline --hot",
     "test": "mocha spec"
