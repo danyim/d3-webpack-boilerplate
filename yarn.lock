@@ -847,10 +847,6 @@ bootstrap-loader@^2.0.0:
     semver "^5.3.0"
     strip-json-comments "^2.0.1"
 
-bootstrap-sass@^3.3.7:
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/bootstrap-sass/-/bootstrap-sass-3.3.7.tgz#6596c7ab40f6637393323ab0bc80d064fc630498"
-
 bootstrap@4.0.0-alpha.4:
   version "4.0.0-alpha.4"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0-alpha.4.tgz#823cb353d6c50a38df98aa18ec4df56ef0355e7a"
