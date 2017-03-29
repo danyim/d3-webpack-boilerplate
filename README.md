@@ -1,5 +1,7 @@
 # D3 Webpack Boilerplate
 
+Simple boilerplate for small-ish D3 projects that require some modern web tooling
+
 ### Features
 - Webpack with a hot-reloading development server
 - Bootstrap 4
